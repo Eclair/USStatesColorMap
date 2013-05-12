@@ -5,13 +5,17 @@ iOS Control for drawing USA states color map using Stately font (http://intridea
 
 Working in iPhone/iPad applications.
 
-*TODO: Add Screenshots*
+![USStatesColorMap Screenshot-iPhone](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPhone.png)
+![USStatesColorMap Screenshot-iPad](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPad.png)
 
 How to use
 ==========
 
 _TIP: To use this control you need to add CoreText Framework to your project._
+
 _TIP: Stately font will be loaded dynamically, so don't add this font to your info.plist file._ 
+
+_TIP: Height of control must be equal to Width, for example: w:320 h:320, w:160 h:160, w:100 h:100, and so on._ 
 
 You can simply add UIView in Interface Builder and change it's class to "USStatesColorMap" (overridden _initWithCoder_ method will be called) or create USStatesColorMap programmatically using _init_ or _initWithFrame_ methods.
 
