@@ -23,26 +23,26 @@ USStatesColorMap control's interface provides ability to customize each state se
  
 If you want to change color for specific state, for example Alaska, you can use one of methods below:
 
-		[self.statesColorMap setColor:color forState:Alaska]; // Alaska = 1
-		// or
-		[self.statesColorMap setColor:color forStateByCode:@"AK"];
-		// or
-		[self.statesColorMap setColor:color forStateByName:@"Alaska"];
+	[self.statesColorMap setColor:color forState:Alaska]; // Alaska = 1
+	// or
+	[self.statesColorMap setColor:color forStateByCode:@"AK"];
+	// or
+	[self.statesColorMap setColor:color forStateByName:@"Alaska"];
 
 If you want to fill all states with one color, you can use _setColorForAllStates_ method:
 
-		[self.statesColorMap setColorForAllStates:color];
+	[self.statesColorMap setColorForAllStates:color];
 
 If you want to make color changes for more than one state, you need to use _performUpdates_ method to avoid map redraw on each state's color change:
 
-		[self.statesColorMap performUpdates:^{
-			[self.statesColorMap setColorForAllStates:unactiveStateColor];
-			[self.statesColorMap setColor:activeStateColor forState:Alabama];
-			[self.statesColorMap setColor:activeStateColor forState:Minnesota];
-			[self.statesColorMap setColor:activeStateColor forState:Nebraska];
-			[self.statesColorMap setColor:activeStateColor forState:NewMexico];
-			// ...
-		}];
+	[self.statesColorMap performUpdates:^{
+		[self.statesColorMap setColorForAllStates:unactiveStateColor];
+		[self.statesColorMap setColor:activeStateColor forState:Alabama];
+		[self.statesColorMap setColor:activeStateColor forState:Minnesota];
+		[self.statesColorMap setColor:activeStateColor forState:Nebraska];
+		[self.statesColorMap setColor:activeStateColor forState:NewMexico];
+		// ...
+	}];
 
 License (MIT)
 =============
