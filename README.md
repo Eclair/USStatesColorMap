@@ -5,6 +5,7 @@ iOS Control for drawing USA states color map using Stately font (http://intridea
 
 Working in iPhone/iPad applications.
 
+![USStatesColorMap Screenshot-iPhone-Example](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPhone_example.png)
 ![USStatesColorMap Screenshot-iPhone](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPhone.png)
 ![USStatesColorMap Screenshot-iPad](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPad.png)
 
