@@ -12,12 +12,6 @@
 
 NSInteger const NumOfStates = 51;
 
-enum CustomizeDialogueButtonIndexes {
-	CancelButtonIndex = 0,
-	RandomizeColorsButtonIndex,
-	FillMapWithColorButtonIndex
-};
-
 @interface ViewController (Private) <MapCustomizationViewControllerDelegate>
 
 -(UIColor*)randomColor;
