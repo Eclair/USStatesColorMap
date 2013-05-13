@@ -3,11 +3,26 @@ USStatesColorMap
 
 iOS Control for drawing USA states color map using Stately font (http://intridea.github.io/stately/).
 
-Working in iPhone/iPad applications.
+Works in iPhone/iPad applications.
 
 ![USStatesColorMap Screenshot-iPhone-Example](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPhone_example.png)
 ![USStatesColorMap Screenshot-iPhone](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPhone.png)
 ![USStatesColorMap Screenshot-iPad](https://raw.github.com/Eclair/USStatesColorMap/master/Screenshots/screenshot-iPad.png)
+
+Installation
+============
+
+You can install this control in two ways:
+
+1. Using CocoaPods: simply add to your podfile
+
+	pod 'USStatesColorMap', '1.0.0'
+
+2. Manually: 
+
+Download source from this repository and copy USStatesColorMapDemo/USStatesColorMap folder to your project.
+
+Don't forget to add _*CoreText*_ framework to your project.
 
 How to use
 ==========
