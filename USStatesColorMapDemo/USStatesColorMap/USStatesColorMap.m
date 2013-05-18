@@ -113,8 +113,6 @@ NSString const *statesLettersString = @"ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijklmno
 		[self registerStatelyFont];
 	}
 	
-	_statesFont = [self getStatelyFont];
-	
 	_statesNames = @{
 		@"Alabama": @(Alabama),
 		@"Alaska": @(Alaska),
@@ -282,6 +280,10 @@ NSString const *statesLettersString = @"ABCDEFGHJKLMNOPQRSTUVWXYZabcdefghijklmno
 
 - (void)drawRect:(CGRect)rect {
 	[super drawRect:rect];
+	
+	if (_statesFont == nil) {
+		_statesFont = [self getStatelyFont];
+	}
 	
 	if (_controlInitialized) {
 		CGContextRef context = UIGraphicsGetCurrentContext();
