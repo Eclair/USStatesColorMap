@@ -16,7 +16,7 @@ You can install this control in two ways:
 
 1. Using CocoaPods: simply add to your podfile
 
-		pod 'USStatesColorMap', '1.0.0'
+		pod 'USStatesColorMap', '~> 1.0.1'
 
 2. Manually: 
 
